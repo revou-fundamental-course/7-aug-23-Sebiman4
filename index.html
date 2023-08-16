@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <div class="header">
+        <h1>Calculator Luas Keliling Segitiga</h1>
+        <p>kalkulator ini hanya menghitung luas dan keliling segitiga</p>
+    </div>
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+            <div class="left">
+              
+                <h1>Luas Segitiga</h1>
+                <label>Alas Segitiga :</label>
+                <input type="number" name="alas" id="angka1"/>
+                <label>Tinggi Segitiga :</label>
+                <input type="number" name="tinggi" id="angka2" >
+                <label>Hasil :</label>
+                <span id="hasil1"></span>
+                <button class="btn" onclick="luas()">Hitung</button>
+                <button onclick="reset1()">Reset</button> <br>
+               
+   
+            </div>
+            <div class="middle">
+                <img src="images/triangle.png" width="300px" height="300px">
+                <br>
+                <p>Rumus Keliling :</p>
+                <p>Sisi A + Sisi B + Sisi C</p>
+                <br>
+                <p>Rumus Luas :</p>
+                <p>1/2 × Alas × Tinggi</p>
+                <br>
+            </div>
+            <div class="right">
+                
+                    <h1>Keliling Segitiga</h1>
+                    <label>Sisi A :</label>
+                    <input type="number" name="sisi1" id="angka3"/>
+                    <label>Sisi B :</label>
+                    <input type="number" name="sisi2" id="angka4" >
+                    <label>Sisi C :</label>
+                    <input type="number" name="sisi3" id="angka5" >
+                    <label>Hasil :</label>
+                    <span id="hasil2"></span>
+                    <button class="btn" onclick="keliling()">Hitung</button>
+                    <button onclick="reset2()">Reset</button> <br>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+        <h3>Create by Dahana Sebi Hascarya</h3>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</html>
